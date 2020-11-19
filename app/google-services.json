@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "92290078420",
+    "firebase_url": "https://phoeauthentication.firebaseio.com",
+    "project_id": "phoeauthentication",
+    "storage_bucket": "phoeauthentication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:92290078420:android:8ced3bfdf33639e53c4d41",
+        "android_client_info": {
+          "package_name": "com.example.phoeauthentication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "92290078420-2o8qma0j06krnchbtluqb5mq47o202po.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.phoeauthentication",
+            "certificate_hash": "d258c2bdb8ec7c8d71747a1bb27e300670bfcba6"
+          }
+        },
+        {
+          "client_id": "92290078420-hluv32ghblppnqogr8aev1t702ecs4sk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5vT-oTx-Hh1F_0vJuulP7VYKQ5mNNZP8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "92290078420-hluv32ghblppnqogr8aev1t702ecs4sk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Authentication">
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+
+        android:src="@drawable/jgilogo"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:layout_marginTop="15dp"
+        android:text="code will be entered automatically"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:layout_marginTop="10dp"
+        android:text="else enter manually"/>
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:inputType="number"
+        android:hint="OTP"
+android:paddingLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/strokeboarder"
+        android:id="@+id/otpgater"/>
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Enter"
+        android:id="@+id/enter"
+        android:background="@drawable/strokeboarder"
+        android:layout_marginTop="30dp"/>
+    <ProgressBar
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressbar"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
